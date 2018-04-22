@@ -39,12 +39,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 
-" Local vimrc. It tries to load .lvimrc file from local directory up to home
-" directory.
-"
-" Plugin 'embear/vim-localvimrc'
-
-
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
