@@ -11,6 +11,8 @@ alias fgrep='fgrep --color'
 alias ls='ls -aGFh'
 alias ll='ls -alGFh'
 
+alias vi='vim'
+
 export PATH=$PATH:~/scripts
 
 # Use Sublime Text as the default editor.
@@ -22,7 +24,6 @@ export PATH=$HOME/homebrew/bin:$PATH
 # Create and enter a directory
 function mkcd () { mkdir -p "$@" && cd "$@"; }
 
-<<<<<<< HEAD
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
@@ -33,4 +34,5 @@ alias ....='cd ../../..'
 # VIM input style in bash terminal 
 set -o vi
 
-. ~/.bashrc
+# Load more settings from .bashrc
+[[ -f ~/.bashrc ]] && . ~/.bashrc
